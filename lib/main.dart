@@ -13,6 +13,8 @@ Future<dynamic> main(final context) async {
   // You can log messages to the console
   context.log('Hello, Logs HIIIIIII-222!');
 
+  final req = await context.req.method;
+
 
 
   // If something goes wrong, log an error
@@ -27,6 +29,6 @@ Future<dynamic> main(final context) async {
 
   // `res.json()` is a handy helper for sending JSON
   return context.res.json({
-    'context.req': context.req.toString(),
+    'context.req': req,
   });
 }
