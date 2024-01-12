@@ -13,7 +13,7 @@ Future<dynamic> main(final context) async {
   // You can log messages to the console
   context.log('Hello, Logs HIIIIIII-222!');
 
-  final req = await context.req.method;
+  final req = await context.req.body;
 
 
 
