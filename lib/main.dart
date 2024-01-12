@@ -24,7 +24,7 @@ Future<dynamic> main(final context) async {
   if (context.req.method == 'GET') {
     // Send a response with the res object helpers
     // `res.send()` dispatches a string back to the client
-    return context.res.send('Hello, World!');
+    return context.res.send('Hello, World! АААГГГССы');
   }
 
   // `res.json()` is a handy helper for sending JSON
