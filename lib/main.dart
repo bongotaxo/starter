@@ -27,6 +27,6 @@ Future<dynamic> main(final context) async {
 
   // `res.json()` is a handy helper for sending JSON
   return context.res.json({
-    'context.req': '111111111++++++',
+    'context.req': context.req.params,
   });
 }
