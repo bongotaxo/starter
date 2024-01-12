@@ -11,8 +11,8 @@ Future<dynamic> main(final context) async {
           '1c822e7306250836f8cc5e7a533d68afeaeb50807e01f2e21abc9c70d03c3306027c7382bfc0716e9de4e1168f54a9bcfaf9a213c644ec4227ef7113275272a3ede51c1508459c24ba0939e23bed35a93447a8155c927851e22ab5b819dd9e886bca52b17848c8c59d80ed86958358858fd8986b6cec8d04fede28c0c4ce3fdd');
 
   // You can log messages to the console
-  context.log('Hello, Logs HIIIIIII000!');
-  context.log(context.req.body());
+  context.log('Hello, Logs HIIIIIII-111!');
+  context.log(context.req);
 
 
   // If something goes wrong, log an error
